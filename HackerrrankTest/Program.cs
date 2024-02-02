@@ -1,5 +1,6 @@
 ﻿using HackerrankTest.week2.exam;
 using HackerrankTest.week3.exam;
+using HackerrankTest.week4.exam;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,10 +20,14 @@ namespace HackerrankTest
             //test.Start(args);
 
 
-            Week3PalindromeIndex test= new Week3PalindromeIndex();
-            int palPos=test.Start("aaa");
+            //Week3PalindromeIndex test= new Week3PalindromeIndex();
+            //int palPos=test.Start("aaa");
 
-            Console.WriteLine($"Palyndrome position: {palPos}");
+            Week4TruckTour test = new Week4TruckTour();
+            int petrolPosStart = test.Start();
+
+
+            Console.WriteLine($"Petrol Pos. Start Pos w/Completion : {petrolPosStart}");
 
 
             Console.WriteLine("Press any key to continue...");

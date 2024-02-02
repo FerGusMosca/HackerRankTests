@@ -51,3 +51,4 @@ C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\HackerRank\Ha
 C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\HackerRank\HackerRank\HackerrrankTest\obj\Debug\net7.0\ref\HackerrankTest.dll
 C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\HackerRank\HackerRank\HackerrrankTest\bin\Debug\net7.0\other\queue stack\input.txt
 C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\HackerRank\HackerRank\HackerrrankTest\obj\Debug\net7.0\HackerrankTest.sourcelink.json
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\HackerRank\HackerRank\HackerrrankTest\bin\Debug\net7.0\week4\exam\input.txt
