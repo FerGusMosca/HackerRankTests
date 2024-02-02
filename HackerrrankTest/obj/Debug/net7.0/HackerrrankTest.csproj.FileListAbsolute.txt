@@ -1,0 +1,16 @@
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\tph_platform\hftplatform\HFTPlatform\HackerrrankTest\bin\Debug\net7.0\HackerrrankTest.exe
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\tph_platform\hftplatform\HFTPlatform\HackerrrankTest\bin\Debug\net7.0\HackerrrankTest.deps.json
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\tph_platform\hftplatform\HFTPlatform\HackerrrankTest\bin\Debug\net7.0\HackerrrankTest.runtimeconfig.json
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\tph_platform\hftplatform\HFTPlatform\HackerrrankTest\bin\Debug\net7.0\HackerrrankTest.dll
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\tph_platform\hftplatform\HFTPlatform\HackerrrankTest\bin\Debug\net7.0\HackerrrankTest.pdb
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\tph_platform\hftplatform\HFTPlatform\HackerrrankTest\obj\Debug\net7.0\HackerrrankTest.csproj.AssemblyReference.cache
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\tph_platform\hftplatform\HFTPlatform\HackerrrankTest\obj\Debug\net7.0\HackerrrankTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\tph_platform\hftplatform\HFTPlatform\HackerrrankTest\obj\Debug\net7.0\HackerrrankTest.AssemblyInfoInputs.cache
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\tph_platform\hftplatform\HFTPlatform\HackerrrankTest\obj\Debug\net7.0\HackerrrankTest.AssemblyInfo.cs
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\tph_platform\hftplatform\HFTPlatform\HackerrrankTest\obj\Debug\net7.0\HackerrrankTest.csproj.CoreCompileInputs.cache
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\tph_platform\hftplatform\HFTPlatform\HackerrrankTest\obj\Debug\net7.0\HackerrrankTest.dll
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\tph_platform\hftplatform\HFTPlatform\HackerrrankTest\obj\Debug\net7.0\refint\HackerrrankTest.dll
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\tph_platform\hftplatform\HFTPlatform\HackerrrankTest\obj\Debug\net7.0\HackerrrankTest.pdb
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\tph_platform\hftplatform\HFTPlatform\HackerrrankTest\obj\Debug\net7.0\HackerrrankTest.genruntimeconfig.cache
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\tph_platform\hftplatform\HFTPlatform\HackerrrankTest\obj\Debug\net7.0\ref\HackerrrankTest.dll
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\tph_platform\hftplatform\HFTPlatform\HackerrrankTest\bin\Debug\net7.0\input.txt
