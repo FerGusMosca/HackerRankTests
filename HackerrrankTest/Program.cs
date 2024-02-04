@@ -17,12 +17,12 @@ namespace HackerrankTest
         public static void Main(string[] args)
         {
 
-            Week2FlippingMatrixTest test = new Week2FlippingMatrixTest();
-            test.Start(args);
+            //Week2FlippingMatrixTest test = new Week2FlippingMatrixTest();
+            //test.Start(args);
 
 
-            //Week3PalindromeIndex test= new Week3PalindromeIndex();
-            //int palPos=test.Start("aaa");
+            Week3PalindromeIndex test = new Week3PalindromeIndex();
+            int palPos = test.Start("aaa");
 
             //Week4TruckTour test = new Week4TruckTour();
             //int petrolPosStart = test.Start();
