@@ -17,8 +17,8 @@ namespace HackerrankTest
         public static void Main(string[] args)
         {
 
-            //Week2FlippingMatrixTest test = new Week2FlippingMatrixTest();
-            //test.Start(args);
+            Week2FlippingMatrixTest test = new Week2FlippingMatrixTest();
+            test.Start(args);
 
 
             //Week3PalindromeIndex test= new Week3PalindromeIndex();
@@ -28,9 +28,9 @@ namespace HackerrankTest
             //int petrolPosStart = test.Start();
             //Console.WriteLine($"Petrol Pos. Start Pos w/Completion : {petrolPosStart}");
 
-            Week5Pairs test = new Week5Pairs();
-            int kDifCounter= test.Start();
-            Console.WriteLine($"Number of k-distances found : {kDifCounter}");
+            //Week5Pairs test = new Week5Pairs();
+            //int kDifCounter= test.Start();
+            //Console.WriteLine($"Number of k-distances found : {kDifCounter}");
 
 
             Console.WriteLine("Press any key to continue...");

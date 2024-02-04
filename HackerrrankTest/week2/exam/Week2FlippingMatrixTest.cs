@@ -21,6 +21,8 @@ namespace HackerrankTest.week2.exam
 
         public static string _INPUT_FILE = "./week2/exam/input.txt";
 
+        public static string _INPUT_FILE_2 = "./week2/exam/input2.txt";
+
         #endregion
 
         #region Protected Attributs
@@ -295,35 +297,105 @@ namespace HackerrankTest.week2.exam
             return resp;
         }
 
+
+        private List<List<int>> GetInput2()
+        {
+
+            List<List<int>> resp = new List<List<int>>();
+            string[] lines = FileToLineArray.ReadFile(MyMatrixReversor._INPUT_FILE);
+            
+
+            int i = 0;
+            foreach (string line in lines)
+            {
+
+                string[] numbers = line.Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries);
+
+
+                List<int> currRow = new List<int>();
+                numbers.ToList().ForEach(x => currRow.Add(Convert.ToInt32(x)));
+
+                resp.Add(currRow);
+
+
+            }
+
+
+            return resp;
+        }
+
         public  int Start(string[] args)
         {
             try
             {
+                int inputVer = 1;
 
-                List<List<int>> input = GetInput();
-                int queries = input[0][0];
-                int n = input[1][0];
+                List<List<int>> matrix = null;
+                int queries ;
+                int n ;
 
-                MyMatrixReversor myMatrixReversor = new MyMatrixReversor(n);
-                
-
-                for (int i = 2; i < 2 + 2 * n; i++)// first 2 rows + 2*n rows
+                if (inputVer == 1)
                 {
 
-                    List<int> rowList = input[i];
+                    matrix = GetInput();
+                    queries = matrix[0][0];
+                    n = matrix[1][0];
 
-                    int[] rowArr =rowList.ToArray();
-                    int row = i - 2;
+                }
+                else if (inputVer == 2) {
 
-                    myMatrixReversor.SetRow(row, rowArr);
+                    matrix = GetInput2();
+                    n = matrix.Count / 2;
                 }
 
 
-                int quadSum = myMatrixReversor.ReOrder();
-                Console.WriteLine($"First Quadrant Sum : {quadSum}");
+                if (inputVer == 1)
+                {
+                    //INPUT OFFICIAL
+                    MyMatrixReversor myMatrixReversor = new MyMatrixReversor(n);
+                    for (int i = 2; i < 2 + 2 * n; i++)// first 2 rows + 2*n rows
+                    {
 
-                return quadSum;
+                        List<int> rowList = matrix[i];
 
+                        int[] rowArr = rowList.ToArray();
+                        int row = i - 2;
+
+                        myMatrixReversor.SetRow(row, rowArr);
+                    }
+
+
+                    int quadSum = myMatrixReversor.ReOrder();
+                    Console.WriteLine($"First Quadrant Sum : {quadSum}");
+
+                    return quadSum;
+                }
+                else if (inputVer == 2)
+                {
+
+                    //INPUT REAL
+                    MyMatrixReversor myMatrixReversor = new MyMatrixReversor(n);
+                    for (int i = 0; i < matrix.Count; i++)// first 2 rows + 2*n rows
+                    {
+
+                        List<int> rowList = matrix[i];
+
+                        int[] rowArr = rowList.ToArray();
+                        int row = i;
+
+                        myMatrixReversor.SetRow(row, rowArr);
+                    }
+
+
+                    int quadSum = myMatrixReversor.ReOrder();
+                    Console.WriteLine($"First Quadrant Sum : {quadSum}");
+
+                    return quadSum;
+
+
+                }
+                else
+                    throw new Exception($"Input version not implemented :{inputVer}");
 
             }
             catch (Exception ex)
