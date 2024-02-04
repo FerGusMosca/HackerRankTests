@@ -332,7 +332,7 @@ namespace HackerrankTest.week2.exam
 
                 List<List<int>> matrix = null;
                 int queries ;
-                int n ;
+                int n = -1; ;
 
                 if (inputVer == 1)
                 {
