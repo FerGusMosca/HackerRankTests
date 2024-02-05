@@ -3,6 +3,7 @@ using HackerrankTest.week3.exam;
 using HackerrankTest.week4.exam;
 using HackerrankTest.week5.exam;
 using HackerrankTest.week6.exam;
+using HackerrankTest.week7.Huffman_Tree;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,8 +35,11 @@ namespace HackerrankTest
             //Console.WriteLine($"Number of k-distances found : {kDifCounter}");
 
 
-            Week6ShortestReach test = new Week6ShortestReach();
-            test.Start();
+            //Week6ShortestReach test = new Week6ShortestReach();
+            //test.Start();
+
+            Week7HuffmanTree huffmaTest=new Week7HuffmanTree();
+            huffmaTest.Start();
 
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();

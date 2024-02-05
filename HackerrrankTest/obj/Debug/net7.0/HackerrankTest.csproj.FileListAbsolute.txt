@@ -55,3 +55,4 @@ C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\HackerRank\Ha
 C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\HackerRank\HackerRank\HackerrrankTest\bin\Debug\net7.0\week5\exam\input.txt
 C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\HackerRank\HackerRank\HackerrrankTest\bin\Debug\net7.0\week2\exam\input2.txt
 C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\HackerRank\HackerRank\HackerrrankTest\bin\Debug\net7.0\week6\exam\input.txt
+C:\Users\zimzum\Desktop\Projects\Seeking Bias\courses_and_training\HackerRank\HackerRank\HackerrrankTest\bin\Debug\net7.0\week7\Huffman_Tree\input.txt
