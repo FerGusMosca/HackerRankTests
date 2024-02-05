@@ -4,6 +4,7 @@ using HackerrankTest.week4.exam;
 using HackerrankTest.week5.exam;
 using HackerrankTest.week6.exam;
 using HackerrankTest.week7.Huffman_Tree;
+using HackerrankTest.week7.PreOrder;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -38,8 +39,11 @@ namespace HackerrankTest
             //Week6ShortestReach test = new Week6ShortestReach();
             //test.Start();
 
-            Week7HuffmanTree huffmaTest=new Week7HuffmanTree();
-            huffmaTest.Start();
+            //Week7HuffmanTree huffmaTest=new Week7HuffmanTree();
+            //huffmaTest.Start();
+
+            Week7PreOrder preOrderTEst = new Week7PreOrder();
+            preOrderTEst.Start();
 
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
